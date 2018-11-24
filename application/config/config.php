@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://management.nerdwaretech.com/cms/';
+$config['base_url'] = 'http://34.207.179.83/CodeIgniter-Project-Management-System-AWSconfig/';
 
 /*
 |--------------------------------------------------------------------------
