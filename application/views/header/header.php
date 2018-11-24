@@ -1,11 +1,12 @@
 <?PHP
 $this->load->helper('url');
 $this->load->helper('html');
+$this->load->library('image_lib');
 
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "i93evEC23xVm";
 $dbname = "nerdware";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -18,7 +19,6 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 
  <head>
- <link rel="icon" href="<?php echo base_url(); ?>application/views/favicon.png" type="image/gif">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">

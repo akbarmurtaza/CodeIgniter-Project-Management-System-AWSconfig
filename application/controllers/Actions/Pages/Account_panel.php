@@ -10,7 +10,7 @@ $this->load->library('session');
 
 			if(isset($this->session->userdata['logged_in'])){
 
-			$this->load->view('pages/actions/Account_Panel.php');
+			$this->load->view('pages/actions/Account_panel.php');
 		}
 
 			else{

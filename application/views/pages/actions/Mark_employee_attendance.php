@@ -1,8 +1,8 @@
 <?php
-date_default_timezone_set("Pakistan/Karachi");
+date_default_timezone_set("Asia/Karachi");
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "i93evEC23xVm";
 $dbname = "nerdware";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -45,7 +45,7 @@ mysqli_close($conn);
   <input class="form-control input-sm" type="text" name="added_date" value="<?php echo date('m/d/Y',strtotime($date_today));?>" readonly>
   <br>
   Current Time:<br>
-  <input class="form-control input-sm" type="text" name="time" value="<?php echo date("H:i:s", strtotime('+3 hours'));?>" readonly>
+  <input class="form-control input-sm" type="text" name="time" value="<?php echo date("H:i:s", strtotime('+0 hours'));?>" readonly>
   <br>
   Intern :<br>
   <?php

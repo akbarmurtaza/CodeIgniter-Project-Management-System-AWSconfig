@@ -97,7 +97,7 @@ switch (ENVIRONMENT)
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
  */
-	$system_path = '/opt/bitnami/frameworks/codeigniter/system';
+	$system_path = 'system';
 
 /*
  *---------------------------------------------------------------
@@ -114,7 +114,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = '/opt/bitnami/frameworks/codeigniter/application';
+	$application_folder = 'application';
 
 /*
  *---------------------------------------------------------------
