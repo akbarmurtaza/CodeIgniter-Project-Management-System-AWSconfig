@@ -9,7 +9,7 @@ $this->load->helper('url');
 error_reporting(0);
 $servername = "localhost";
 $username = "root";
-$password = "i93evEC23xVm";
+$password = "uzyqViLLlyS3";
 $dbname = "nerdware";
 
   $conn = new mysqli($servername, $username, $password, $dbname);

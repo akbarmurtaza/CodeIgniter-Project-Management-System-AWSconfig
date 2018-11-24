@@ -7,7 +7,7 @@ if(isset($_POST['input']))
     error_reporting(0);
     $servername = "localhost";
     $username = "root";
-    $password = "i93evEC23xVm";
+    $password = "uzyqViLLlyS3";
     $dbname = "nerdware";
 
 
